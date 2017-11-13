@@ -12,11 +12,7 @@ function initializeFirebase() {
     storageBucket: "scripted-org.appspot.com",
     messagingSenderId: "436190267084"
   };
-
-  // YOU FOUND ME! YAAAYYYYYYYY!
-  // TODO: Uncomment the following line to fix Firebase initialization.
-  
-  //firebase.initializeApp(config);
+  firebase.initializeApp(config);
 }
 
 
